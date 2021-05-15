@@ -1,23 +1,23 @@
 ﻿
 @font-face {
 	font-family: 'Conv_Montserrat-Regular';
-	src: url('../fonts//Montserrat-Regular.eot');
-	src: local('☺'), url('Montserrat-Regular.woff') format('woff'), url('fonts//Montserrat-Regular.ttf') format('truetype'), url('fonts//Montserrat-Regular.svg') format('svg');
+	src: url('Montserrat-Regular.eot');
+	src: local('☺'), url('Montserrat-Regular.woff') format('woff'), url('Montserrat-Regular.ttf') format('truetype'), url('Montserrat-Regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Conv_Montserrat-Bold';
-	src: url('../fonts//Montserrat-Bold.eot');
-	src: local('☺'), url('Montserrat-Bold.woff') format('woff'), url('fonts//Montserrat-Bold.ttf') format('truetype'), url('fonts//Montserrat-Bold.svg') format('svg');
+	src: url('Montserrat-Bold.eot');
+	src: local('☺'), url('Montserrat-Bold.woff') format('woff'), url('Montserrat-Bold.ttf') format('truetype'), url('Montserrat-Bold.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Conv_Montserrat-Medium';
-	src: url('../fonts/Montserrat-Medium.eot');
+	src: url('fonts/Montserrat-Medium.eot');
 	src: local('☺'), url('Montserrat-Medium.woff') format('woff'), url('Montserrat-Medium.ttf') format('truetype'), url('Montserrat-Medium.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;

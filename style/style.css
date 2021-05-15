@@ -4,11 +4,20 @@ body {
 	margin: 0px;
 	height: 2700px;
 	width: 1440px;
-	background: #FFFFFF;
+	background: #fff;
 }
 
 .header 
-.menu
+.menu {
+	position: absolute;
+	height: 900px;
+	width: 461px;
+	left: 0px;
+	top: 0px;
+	border-radius: 0px;
+	background: #000;
+
+}
 .menu__name {
 	position: absolute;
 	width: 98px;
@@ -17,9 +26,39 @@ body {
 	top: 36px;
 
 	font-family: 'Conv_Montserrat-Medium';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+	letter-spacing: 0.07em;
+	text-align: center;
+	color: #fff;
+
 }
-.menu__languare
-.menu__vector
+.menu__languare {
+	position: absolute;
+	width: 31px;
+	height: 25px;
+	left: 388px;
+	top: 42px;
+
+	font-family: 'Conv_Montserrat-Medium';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: right;
+	color: #fff;
+}
+.menu__vector {
+	position: absolute;
+	width: 11px;
+	height: 5.5px;
+	left: 426px;
+	top: 50px;
+	
+
+}
 .burger
 .social
 .social__insta
