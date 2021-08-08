@@ -1,57 +1,69 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<title>LOCO</title>
-	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 </head>
 <body>
 	<header class="header">
-		<div class="menu">
-			<div class="menu__name">LOCO</div>
-			<div class="menu__languare">RU</div>
-			<div class="menu__vector">
-				<span></span>
+		<div class="container">
+			<div class="header__body">
+				<div class="header__name">LOCO</div>
+				<div class="header__languare">RU</div>
+				<a class="header__vector" href="#">
+					<img src="img/icons/Vector.svg">
+				</a>
+				<div class="header__burger">
+					<span></span>
+				</div>
+				<ul class="header__social">
+					<li class="insta">
+						<a href="#">
+							<img src="img/icons/INST.svg">
+					        <span></span>
+						</a>
+				    </li>
+				    <li class="vk">
+						<a href="#">
+							<img src="img/icons/VK.svg">
+							<span></span>
+						</a>
+					</li>
+					<li class="fb">
+					<a href="#">
+						<img src="img/icons/FB.svg">
+						<span></span>
+					</a>
+					</li>
+				</ul>
+				<div class="header-scroll">
+					<span class="scroll__line"></span>
+				</div>
 			</div>
-		</div>
-		<div class="burger">
-			<span></span>
-		</div>
-		<div class="social">
-			<div class="social__insta">
-				<img src="img/icons/instagram.svg">
-				<span></span>
-			</div>
-			<div class="social__vk">
-				<img src="img/icons/VK.svg">
-				<span></span>
-			</div>
-			<div class="social__fb">
-				<img src="img/icons/FB.svg">
-				<span></span>
-			</div>
-		</div>
-		<div class="scroll">
-			<img src="img/icons/Scrooll.svg" alt="">
 		</div>
 	</header>
 	<div class="main">
 		<div class="collection">
-			<img src="img/pete-bellis-432867-unsplash.png" class="collection__image">
-			<div class="collection__title">
-				<h1>Новая
-                коллекция</h1>
+			<div class="collection__image">
+				<img src="img/pete-bellis-432867-unsplash.jpg">
 			</div>
-			<div class="collection__text">
-				<p>Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
-			</div>
-			<button class="collection__info">ЧИТАТЬ ДАЛЬШЕ</button>
-			<a href="#" class="collection__link">
-				<span>ДРУГИЕ ПРЕДЛОЖЕНИЯ</span>
-				<img src="img/icons/Vector1.svg">
-			</a>
+			<h1 class="collection__title"> Новая
+             коллекция 
+            </h1>
+            <div class="collection__text">
+            	<p>Бесплатная доставка включена. Предложение действует на сайте loco.com и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
+            </div>
+            <button class="collection__btn">
+            	ЧИТАТЬ ДАЛЬШЕ
+            </button>
+            <a href="#" class="collection__link">
+            	ДРУГИЕ ПРЕДЛОЖЕНИЯ
+            	<img class="collection__vector" src="img/icons/Vector1.svg">
+            </a>
 		</div>
 		<div class="clatch">
 			<div class="clatch__image">
@@ -60,7 +72,9 @@
 			<div class="clatch__img">
 				<img src="img/10511040_001 2.2.png">
 			</div>
-			<h1 class="clatch__title">Кожаный клатч</h>
+			<h1 class="clatch__title">
+				КОЖАННЫЙ КЛАТЧ
+			</h1>
 			<div class="clatch__subtitle">
 				<p>ОСЕННЯЯ КОЛЛЕКЦИЯ</p>
 			</div>	
@@ -76,43 +90,42 @@
 				</div>
 				<span class="price">1990₽</span>
 				<div class="basket">
-					<span class="basket__minus">-</span>
+					<div class="basket__minus"> - </div>
 					<input type="text" size="1" value="1">
-					<span class="basket__plus">+</span>
+					<span class="basket__plus"> + </span>
+					<button class="button">ДОБАВИТЬ В КОРЗИНУ</button>
+					<div class="ref">
+						<a href="#" class="ref__text">ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
+						<img src="img/icons/Vector1.svg" alt="" class="ref__image">
+					</div>
 				</div>
-				<button class="button">ДОБАВИТЬ В КОРЗИНУ</button>
-				<div class="ref">
-					<a href="#" class="ref__text">ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
-					<img src="img/icons/Vector1.svg" class="ref__image">
-			    </div>
-			</div>
-			<div class="look">
-				<div class="look__image">
-					<img src="img/photo-1516762689617-e1cffcef479d.png">
-				</div>
-				<div class="look__title">
-					<h1>Serene Total Look</h1>
-				</div>
-				<div class="look__subtitle">
-					<p>ОСЕННЯЯ КОЛЛЕКЦИЯ</p>
-				</div>	
-				<div class="look__text">
-					<p>Джинсы, свитер, обувь.
-                    В комплект также входит пакет ароматного чая и кружка.</p>
-				</div>
-				<div class="info">
-					<span class="info__minus">-</span>
-					<input type="text" size="1" value="1">
-					<span class="info__plus">+</span>
-				</div>
-				<button class="look__button">ДОБАВИТЬ В КОРЗИНУ</button>
-				<div class="link">
-					<a href="#" class="link__text">ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
-					<img src="img/icons/Vector2.svg" class="link__image">
-				</div>
+
 			</div>
 		</div>
-	</div>	
+		<div class="look">
+			<div class="look__image">
+				<img src="img/photo-1516762689617-e1cffcef479d.png">
+			</div>
+			<h1 class="look__title">Serene Total Look</h1>
+			<div class="look__subtitle">
+				<p>ОСЕННЯЯ КОЛЛЕКЦИЯ</p>
+			</div>
+			<div class="look__text">
+				<p>Джинсы, свитер, обувь.
+                В комплект также входит пакет ароматного чая и кружка.</p>
+			</div>
+			<div class="info">
+				<span class="info__minus">-</span>
+				<input type="text" size="1" value="1">
+				<span class="info__plus">+</span>
+			</div>
+			<button class="look__btn">ДОБАВИТЬ В КОРЗИНУ</button>
+			<div class="link">
+				<a href="#" class="link__text">ДРУГИЕ ТОВАРЫ НА LOCO.COM</a>
+				<img src="img/icons/Vector2.svg" class="link__image">
+			</div>
+		</div>
+	</div>
 	<footer class="footer">
 		<div class="footer__text">
 			<p>РАЗРАБОТАНО В</p>
@@ -159,7 +172,7 @@
 			<span class="name__l">
 				<img src="img/icons/l.svg">
 			</span>
-		</div>
+		</div>		
 	</footer>
 </body>
 </html>

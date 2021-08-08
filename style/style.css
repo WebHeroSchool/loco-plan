@@ -1,30 +1,242 @@
-@import url('https://../fonts/.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
-
-@font-face {
-	font-family: 'Conv_Montserrat-Regular';
-	src: url('../fonts//Montserrat-Regular.eot');
-	src: local('☺'), url('../fonts//Montserrat-Regular.woff') format('woff'), url('../fonts//Montserrat-Regular.ttf') format('truetype'), url('../fonts//Montserrat-Regular.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+html,body {
+	height: 100%;
+	position: 0;
+	margin: 0;
+	background: #fff;
+	
 }
 
-@font-face {
+button {
+	border: 1.5px solid #000;
+	text-decoration: none;
+	text-align: center;
+	line-height: 3.5em;
+	width: 203px;
+	height: 44px;
+}
+
+.header{
+	position: absolute;
+	width: 461px;
+	height: 900px;
+	top: 0;
+	left: 0;
+} 
+
+.header:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 461px;	
+	height: 900px;
+	background-color: #000;	
+}
+
+.header__body {
+	position: relative;
+}
+
+.header__name {
+	margin: 36px 58px 37px 51px;
 	font-family: 'Conv_Montserrat-Medium';
-	src: url('../fonts//Montserrat-Medium.eot');
-	src: local('☺'), url('../fonts//Montserrat-Medium.woff') format('woff'), url('../fonts//Montserrat-Medium.ttf') format('truetype'), url('../fonts//Montserrat-Medium.svg') format('svg');
-	font-weight: normal;
+	font-size: 30px;
 	font-style: normal;
+	font-weight: 500;
+	color: #fff;
+}	
+
+.header__languare {
+	position: absolute;
+	width: 31px;
+	height: 25px;
+	left: 388px;
+	top: 42px;
+
+	font-family: 'Conv_Montserrat-Medium';
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: right;
+	color: #fff;
 }
 
-@font-face {
+.header__vector {
+	position: absolute;
+	width: 11px;
+	height: 5.5px;
+	left: 426px;
+	top: 48px;
+}
+
+.header__burger {
+	display: block;
+	position: fixed;
+	width: 92px;
+	height: 92px;
+	background-color: #e5e5e5;
+	left: 1348px;
+	top: 0px;
+}	
+
+.header__burger:before,
+.header__burger:after {
+	position: absolute;
+	content: '';
+	width: 34px;
+	height: 4px;
+	top: 40px;
+	left: 28px;
+	background: #000;
+}
+
+.header__burger:before {
+	top: 50px;
+}
+
+.header__burger:after {
+	bottom: 50px;
+}
+.header__social {
+	display: flex;
+}
+
+.header__social li {
+	list-style: none;
+	margin-top: 710px;
+	margin-left: 12px;
+}
+
+
+.header-scroll {
+	position: absolute;
+	height: 46px;
+	width: 27px;
+	left: 707px;
+	top: 815px;
+	border: 2px solid #000;
+	box-sizing: border-box;
+	border-radius: 15px;
+}
+
+.scroll__line {
+	position: absolute;
+	height: 8px;
+	width: 3px;
+	left: 719px;
+	top: 827px;
+	color: #000;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+
+
+.main
+.collection
+
+.collection__image {
+	position: absolute;
+	width: 856px;
+	height: 1128px;
+	left: 183px;
+	top: 167px;
+	z-index: 2;
+}
+
+.collection__title {
+	position: absolute;
+	width: 475px;
+	height: 164px;
+	left: 789px;
+	top: 222px;
+
 	font-family: 'Conv_Montserrat-Bold';
-	src: url('../fonts//Montserrat-Bold.eot');
-	src: local('☺'), url('../fonts//Montserrat-Bold.woff') format('woff'), url('../fonts//Montserrat-Bold.ttf') format('truetype'), url('../fonts//Montserrat-Bold.svg') format('svg');
+	font-style: normal;
+	font-weight: bold;
+	font-size: 80px;
+	line-height: 82px;
+	content: #000;
+}
+
+.collection__text {
+	position: absolute;
+	width: 467px;
+	height: 127px;
+	left: 789px;
+	top: 436px;
+
+	font-family: 'Conv_Montserrat-Regular';
+	font-style: normal;
 	font-weight: normal;
+	font-size: 15px;
+	line-height: 21px;
+	content: #000;
+}
+
+.collection__btn {
+	position: absolute;
+	margin-left: 787px;
+	margin-top: 616px;
+
+	font-family: 'Conv_Montserrat-Medium';
+	font-size: 13px;
 	font-style: normal;
 }
 
-.menu {
-	font-family: 'Conv_Montserrat-Medium';
+.collection__link {
+	position: absolute;
+    margin-left: 1038px;
+    margin-top: 628px;
+    text-decoration: none;
+
+    font-family: 'Conv_Montserrat-Medium';
+	font-size: 13px;
+	font-style: normal;
+	text-align: center;
 }
+
+.collection__vector {
+	
+
+}
+.clatch
+.clatch__image
+.clatch__img
+.clatch__title
+.clatch__subtitle
+.clatch__text
+.group
+.ellipse
+.ellipse__gray
+.ellipse__pink
+.ellipse__blue
+.ellipse__green
+.price
+.basket
+.basket__minus
+.basket__plus
+.button
+.ref
+.ref__text
+.ref__image
+.look
+.look__image
+.look__title
+.look__subtitle
+.look__text
+.info
+.info__minus
+.info__plus
+.look__button
+.link
+.link__text
+.link__image
+.footer
+.footer__text
+.vector
+.name
 
